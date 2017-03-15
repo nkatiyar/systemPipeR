@@ -1,0 +1,19 @@
+## Parameter file for Bismark
+## Values in <...> reference column titles in targets file
+PairSet	Name	Value
+modules	NA	bismark/0.14.3
+modules	NA	bowtie
+modules	NA	samtools
+software	NA	bismark
+cores	--multicore	4
+other	NA	--path_to_bowtie /opt/linux/centos/7.x/x86_64/pkgs/bowtie/1.1.1/bin/ /rhome/nkatiyar/systemPipeR_MethylSeq_prep/data/
+infile1	NA	<FileName1>
+infile1	path	NA
+infile2	NA	<FileName2>
+infile2	path	NA
+outfile1	-o	<FileName1>
+outfile1	path	./results/
+outfile1	remove	NA
+outfile1	append	.out
+outfile1	outextension	.out
+reference	NA	./data/tair10.fasta

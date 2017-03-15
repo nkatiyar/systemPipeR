@@ -1,0 +1,18 @@
+## Parameter file for Bismark
+## Values in <...> reference column titles in targets file
+PairSet	Name	Value
+modules	NA	bismark/0.14.3
+modules	NA	bowtie2/2.2.9
+modules	NA	samtools
+software	NA	bismark_genome_preparation
+other	NA	--bowtie2	--path_to_bowtie /opt/linux/centos/7.x/x86_64/pkgs/bowtie2/2.2.9/bin/bowtie2 ./data/tair10.fasta
+#infile1	-1	<FileName1>
+#infile1	path	NA
+#infile2	-2	<FileName2>
+#infile2	path	NA
+outfile1	-S	<FileName1>
+outfile1	path	./results/
+outfile1	remove	NA
+#outfile1	append	.sam
+#outfile1	outextension	.bam
+reference	NA	./data/tair10.fasta
